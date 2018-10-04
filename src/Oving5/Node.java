@@ -1,4 +1,4 @@
-package Oving4.Part1;
+package Oving5;
 
 /*
  * Code is from the book "Algoritmer og datastrukturer" by Helge Hafting and Mildrid Ljosland
@@ -24,9 +24,6 @@ public class Node {
         this.previous=previous;
     }
 
-    public String findName(){
-        return name;
-    }
     public long findElement(){
         return element;
     }

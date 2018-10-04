@@ -33,6 +33,16 @@ public class DoubleLinkedList {
         tail = newNode;
         ++nrOfElements;
     }
+    public void insertAtTheEnd(String value){
+        Node newNode = new Node(value,null,tail);
+        if (tail != null){
+            tail.next= newNode;
+        }else {
+            head = newNode;
+        }
+        tail = newNode;
+        ++nrOfElements;
+    }
 
     // Inserting a new value at the start of the list
     public void addFirst(long value){
